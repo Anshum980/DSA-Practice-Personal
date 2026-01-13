@@ -8,11 +8,12 @@ public class BasicDeclarationof2Darrays {
         grid[0][0] = 1;
         grid[0][1] = 2;
         grid[0][2] = 3;
-       for(int i=0;i<3;i++){
+       for(int i=0;i<4;i++){
         for(int j=0;j<3;j++){
             System.out.print(grid[i][j] +" ");
         }
         System.out.println();
        }
     }
+        
 }

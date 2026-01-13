@@ -18,7 +18,10 @@ public class NextGreatestElemts {
         int nge = arr[n-1];
         for(int i=n-2;i>=0;i--){
             ans[i] = nge;
-            nge = Math.max(nge, arr[i]);
+            //nge = Math.max(nge, arr[i]);
+            if(arr[i]>nge){
+                nge = arr[i];
+            }
         }
          for (int ele : arr) {
             System.out.print(ele +" ");
