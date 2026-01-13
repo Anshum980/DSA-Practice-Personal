@@ -6,7 +6,7 @@ public class MergeSortedArrays {
         int[] c = new int[m+n];
         int i=0,j=0,k=0;
         // merging
-        while (i<a.length && j<b.length) {
+        while (i<a.length && j<b.length<a.length && j) {
             if (a[i]<=b[j]) {
                 c[k]=a[i];
                 i++; k++;
